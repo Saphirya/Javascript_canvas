@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script type="module" src="ombre.js"></script>
+    <script type="module" src="pixels.js"></script>
     <title>Document</title>
   </head>
   <body>
@@ -11,7 +11,19 @@
       id="canvas"
       width="600"
       height="600"
-      style="border: 1px solid"
+      style="border: 1px solid; cursor: pointer"
     ></canvas>
+    <div
+      id="color"
+      style="
+        width: 150px;
+        height: 150px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      "
+    >
+      <span></span>
+    </div>
   </body>
 </html>
